@@ -7,6 +7,7 @@ from langchain_core.runnables import RunnablePassthrough
 from langchain_core.output_parsers import StrOutputParser
 from rag_pipeline import load_pdf, init_vector_db, get_retriever
 
+
 load_dotenv()
 app = FastAPI(title="PDF RAG DeepSeek")
 # 新增temperature=0.2，越低越严谨，减少编造
