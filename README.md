@@ -10,14 +10,12 @@ RAG框架：LangChain
 嵌入模型：all-MiniLM-L6-v2 (Sentence-Transformers)
 文档解析：PyPDFLoader
 
-
 ## 项目架构
 1. 文件上传模块：接收前端上传PDF，保存到uploads文件夹
 2. 文档处理模块：加载PDF、文本分割、生成向量
 3. 向量存储模块：Chroma本地向量库，持久化存储向量，目录 vector_db
 4. 检索增强模块：用户问题向量化，检索最相关文档片段
 5. LLM问答模块：把检索上下文+用户问题交给DeepSeek，返回答案
-
 
 ## 环境搭建
 ### 1. 创建虚拟环境
