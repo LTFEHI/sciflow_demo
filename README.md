@@ -2,6 +2,7 @@
 > 课程设计 / 个人大作业项目，基于FastAPI + LangChain + Chroma向量库 + DeepSeek大模型，实现上传PDF文档，基于文档内容智能问答。
 > 项目支持：PDF文档解析、文本分块、向量化存储、向量检索、大模型问答；可区分文档内知识，拒绝编造幻觉。
 
+
 ## 技术栈
 后端：Python 3.10+, FastAPI, Uvicorn
 LLM：DeepSeek API
