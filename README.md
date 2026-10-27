@@ -10,7 +10,6 @@ RAG框架：LangChain
 嵌入模型：all-MiniLM-L6-v2 (Sentence-Transformers)
 文档解析：PyPDFLoader
 
-
 ## 项目架构
 1. 文件上传模块：接收前端上传PDF，保存到uploads文件夹
 2. 文档处理模块：加载PDF、文本分割、生成向量
